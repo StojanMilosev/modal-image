@@ -1,2 +1,4 @@
 # modal-image
-simple modal image using CSS/JS
+Simple modal image using CSS/JS
+
+[Live demo](https://stojanmilosev.github.io/modal-image/)
