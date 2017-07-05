@@ -18,6 +18,10 @@
     margin: auto; 
     margin-top: 50px;
 }
+#img:hover{
+    cursor: pointer;
+    box-shadow: -3px 0 7px dodgerblue, 0 3px 7px dodgerblue, 3px 0 7px dodgerblue, 0 -3px 7px dodgerblue;
+}
 /*modal*/
 .modal{
     display: none;
@@ -33,32 +37,16 @@
     background-color: rgba(0,0,0,0.4);
 }
 .modal-content{
-    position: realtive;
-    top: -300px;
-    background-color: #fefefe;
-    width: 50%;
     margin: auto;
-    padding: 20px;
-    text-align: justify;
-    border: solid 2px #dfdfdf;
-    border-radius: 7px;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    display: block;
+    max-width: 700px;
+    padding: 5px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    background-color: #dfdfdf;
+    border-radius: 5px;
 }
-
-
-.modal-header{
-    border-bottom:solid 2px rgba(133,133,133,0.2);
-}
-.modal-body{
-    padding: 20px;
-    font-size: 25px;
-}
-.modal-body h1,h2,h3,h4,h5{
-    text-align: center;
-} 
-
-.modal-header h1,h2,h3,h4,h5{
-    text-align: justify;
+#img-1{
+    max-width: inherit;
 }
 #close-img{
     color: #aaa;
